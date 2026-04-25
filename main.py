@@ -1,9 +1,8 @@
 from fastapi.responses import HTMLResponse
 from fastapi import FastAPI, Request
 import telebot
-import config
 
-bot = telebot.TeleBot(config.token)
+bot = telebot.TeleBot("8752956295:AAH2pX6gy4zG_ijc5qkrDVGgQBStPJwaV_Y")
 app = FastAPI()
 
 @app.get("/pay")
